@@ -1,5 +1,5 @@
 var regExp = /\{([^\}]+)\}/g;
-var storyint = 2; //Math.floor(Math.random() * STORIES.length);
+var storyint = Math.floor(Math.random() * STORIES.length);
 var storydef = STORIES[storyint];
 var story = storydef[1];
 var heading = storydef[0];
